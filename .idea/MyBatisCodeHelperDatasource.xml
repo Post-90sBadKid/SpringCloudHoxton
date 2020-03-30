@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="baseClassSearchXml" value="true" />
+        <option name="insertMethodEnabled" value="false" />
+        <option name="javaMapperPackage" value="com.wry.springcloud.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" />
+        <option name="javaModelPackage" value="com.wry.springcloud.entities" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="cloud-provider-payment8001" />
+        <option name="lombokAllArgConstructor" value="true" />
+        <option name="lombokBuilderAnnotation" value="true" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="lombokNoArgsConstructor" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="cloud-provider-payment8001">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.wry.springcloud.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" />
+                  <option name="javaModelPacakge" value="com.wry.springcloud.entities" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db2019:payment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="insertMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Payment" />
+                  <option name="moduleName" value="cloud-provider-payment8001" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="updateByPrimaykeyEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="updateByPrimaykeyEnabled" value="false" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
