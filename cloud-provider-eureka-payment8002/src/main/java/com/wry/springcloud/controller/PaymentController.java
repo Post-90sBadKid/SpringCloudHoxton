@@ -42,4 +42,14 @@ public class PaymentController {
         Payment payment = paymentService.selectById(id);
         return payment != null ? CommonResult.success("查询成功！端口："+serverPort, payment):CommonResult.success("没有对应数据，端口："+serverPort);
     }
+    @GetMapping("/payment/get/{id}")
+    public CommonResult getId(@PathVariable("id") Long id) {
+        Payment payment = paymentService.selectById(id);
+        return payment != null ? CommonResult.success("查询成功！端口：" + serverPort, payment) : CommonResult.success("没有对应数据，端口：" + serverPort);
+    }
+
+    @GetMapping("/payment/lb")
+    public Object lb() {
+        return serverPort;
+    }
 }
